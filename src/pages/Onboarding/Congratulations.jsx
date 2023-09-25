@@ -5,7 +5,7 @@ import congrats from "../../assets/images/congrats.png";
 const Congratulations = () => {
   useEffect(() => {
     setTimeout(() => {
-      window.location.href = "http://localhost:3000/home/admitcard";
+      window.location.href = "https://onward-demo.vercel.app/home/admitcard";
     }, 5000);
   });
   return (
