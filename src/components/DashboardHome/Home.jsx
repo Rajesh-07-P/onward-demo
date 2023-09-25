@@ -61,8 +61,7 @@ const Home = () => {
     const requestData = {
       uniqueID: userDetails.userId || uID,
       assessmentTemplateId: "64ef03a00bf0f105e8c8253e",
-      redirectClientUrl:
-        "https://6511034f6686c84be39ab8df--willowy-tanuki-9d8cb8.netlify.app/home/results",
+      redirectClientUrl: "https://onward-demo.vercel.app/home/results",
       email: userDetails.email,
       client_id: "62fcc9206e3a3a7e54bf3a52",
       callback_url:
