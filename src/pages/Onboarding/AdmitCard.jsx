@@ -46,7 +46,7 @@ const AdmitCard = () => {
   };
 
   const handleWelcome=()=>{
-    window.location.href = "http://localhost:3000/home/welcome";
+    window.location.href = "https://onward-demo.vercel.app/home/welcome";
   }
   return (
     <Flex
